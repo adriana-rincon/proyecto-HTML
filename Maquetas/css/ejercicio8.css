@@ -1,0 +1,75 @@
+#container{
+    width: 1000px;
+    height: 1000px;
+    background-color: rgb(60, 60, 243);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header{
+    width: 1000px;
+    height: 200px;
+    background-color: rgb(121, 240, 240);
+}
+
+#enc{
+    position: relative;
+    left: 450px;
+    top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color: rgb(2, 39, 11);
+}
+
+#nav{
+    width: 1000px;
+    height: 100px;
+    background-color: rgb(59, 178, 224);
+}
+
+#men{
+    position: relative;
+    left: 450px;
+    top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color: rgb(202, 19, 92);
+}
+
+#main{
+    float: left;
+    width: 1000px;
+    height: 850px;
+    background-color: rgb(136, 235, 106);
+}
+
+#cue{
+    position: relative;
+    left: 450px;
+    top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    background-color: black;
+}
+
+#footer{
+    float: left;
+    width: 1000px;
+    height: 80px;
+    background-color: rgb(229, 255, 0);
+}
+
+#pie{
+    position: relative;
+    left: 5px;
+    top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 9px;
+    color: rgb(5, 3, 17);
+}
+
+.alinear_flex{
+    float: right;
+    display: flex;
+    justify-content: center;
+}
