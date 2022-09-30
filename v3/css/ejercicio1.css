@@ -1,0 +1,26 @@
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(129, 8, 8);
+}
+
+#parr1{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(137, 46, 221) 
+}
+.dis1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(116, 95, 136);
+}
+
+#container{
+    width: 2024px;
+    height: 2024px;
+    background-color: rgb(16, 231, 124);
+    margin-left: auto;
+    margin-right: auto;
+
+}

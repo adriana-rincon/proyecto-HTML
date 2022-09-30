@@ -1,0 +1,21 @@
+#container{
+    width: 1000px;
+    height: 1000px;
+    background-color: rgb(233, 101, 211);
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(118, 226, 190);
+}
+
+.dis1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(69, 69, 226);
+}
+

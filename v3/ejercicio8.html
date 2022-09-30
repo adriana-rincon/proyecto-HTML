@@ -1,0 +1,53 @@
+<!--
+    ENTIDAD: Centro de Biotecnologia Agropecuaria
+    FICHA: 2558346
+    PROGRAMA: Analisis y Desarrollo de Software
+    AUTOR: Adriana Rincon
+    OBJETIVO: uso de las etiquetas HTML: p, strong, del, abbr,em, blockquote.
+    FECHA DE CREACION: 01 de agosto  2022
+    VERSION: 3.0.0
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>lista compleja anidada</title>
+    <link rel="stylesheet" href="./css/ejercicio8.css">
+</head>
+    <body>
+        <div id="container">
+            <h1>Menu</h1>
+            <ul>
+                <li id="tit1"> Inicio</li>
+                <li>
+                    <strong id="tit2">Noticias</strong>
+                    <ul>
+                        <li id="parr1" class="dis1"><a href="#" title="Ver las noticias mas recientes"> recientes</a></li>
+                        <li><strong><a href="#" title="ver las noticias mas leidas"> Mas leidas</a></strong></li>
+                        <li><a href="#" title="Ver las noticias mas valoradas"> Mas valoradas</a></li>
+                    </ul>
+                </li>
+                <li id="tit3">
+                    Articulos
+                    <ol>
+                        <li id="parr2" class="dis1"><strong>XHTML</strong></li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Otros</li>
+                    </ol>
+                </li>
+                <li id="tit4">
+                    Contactos
+                    <dl>
+                        <dt id="parr3" class="dis1"><em>Email</em></dt>
+                        <dd><strong>nombre@direccion.com</strong></dd>
+                        <dt><em>Telefono</em></dt>
+                        <dd>900 900 900</dd>
+                        <dt><em>Fax</em></dt>
+                        <dd>900 900 900</dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+#container{
+    width: 650px;
+    height: 650px;
+    background-color: rgb(204, 98, 98);
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#cuadro{
+    background-color: rgb(156, 207, 236);
+}
+#meses{
+    background-color: rgb(75, 194, 227);
+}
+#dias{
+    background-color: rgb(177, 124, 207);
+}
+#año{
+    background-color: rgb(206, 103, 232);
+}
+#lugar{
+    background-color: bisque;
+}
